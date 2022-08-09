@@ -1,0 +1,70 @@
+.navbar{
+    box-shadow: 0px 3px 6px #C1C3C736;
+    color: #19345E;
+}
+.px-0{
+    width: 100%;
+    padding-top: 80px;
+}
+.display-4{
+    background-color: #fff;
+    width: 100%;
+    color: #19345E;
+}
+.px-0 .display-4{
+    font-family: 'Muli, Bold';
+    font-size: 45px;
+    padding-top: 45px;
+    text-align: center;
+}
+.garis1, .garis2{
+    width: 35px;
+    height: 0px;
+    border: 2px solid #F47522;
+}
+.container-fluida{
+    display: flex;
+    flex-direction: wrap;
+}
+.g-3 .container-fluida .phone, .email, .website, .social p{
+    font-size: 18px;
+    color: #19345E;
+    font-family: 'Poppins, Regular';
+}
+.g-3 .container-fluida .phone, .email, .website, .social img{
+    width: 15px;
+    height: 15px;
+}
+.wpform-required-label{
+    color: #ff0000;
+    font-weight: 400px;
+}
+.col-auto img{
+    width: 20px;
+    height: 20px;
+}
+.btn1{
+    padding-top: 30px;
+    border: 1px solid #19345E;
+    border-radius: 50px;
+    background-color: #ff9800;
+    color: #fff;
+    font-family: 'Muli', 'Bold';
+    font-size: 16px;
+    width: 25%;
+    height: 48px;
+    padding: 10px 25px;
+    transition: all 1s;
+    cursor: pointer;
+}
+.btn1:hover{
+    color: #fff;
+    background-color: #19345E;
+    text-decoration: none;
+}
+.footer{
+    background: #19345E;
+}
+.logo-socmed{
+    width: 20px;
+}
