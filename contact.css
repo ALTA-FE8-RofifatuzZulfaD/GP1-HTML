@@ -2,20 +2,28 @@
     box-shadow: 0px 3px 6px #C1C3C736;
     color: #19345E;
 }
-.px-0{
+.bartext{
+    color: #19345E;
+    font-weight: bold;
+}
+.contact-button{
+    margin-left: 50px;
+    width: 130px;
+}
+.container-fluida1{
     width: 100%;
     padding-top: 80px;
 }
-.display-4{
-    background-color: #fff;
-    width: 100%;
-    color: #19345E;
+.col-8.d-flex.justify-content-center.align-items-center {
+    width: auto;
 }
-.px-0 .display-4{
+.display-4{
     font-family: 'Muli, Bold';
     font-size: 45px;
-    padding-top: 45px;
-    text-align: center;
+    background-color: #fff;
+    color: #19345E;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .garis1, .garis2{
     width: 35px;
@@ -26,14 +34,53 @@
     display: flex;
     flex-direction: wrap;
 }
-.g-3 .container-fluida .phone, .email, .website, .social p{
+.container-fluida .bagian1{
+    width: 42%;
+    padding-left: 200px;
+}
+.container-fluida .elementor-widget-container p{
     font-size: 18px;
     color: #19345E;
     font-family: 'Poppins, Regular';
 }
-.g-3 .container-fluida .phone, .email, .website, .social img{
+.elementor-icon-box-wrapper1, p{
+    margin-bottom: 2px;
+}
+.elementor-icon-box-wrapper1 .elementor-icon-box-icon, .elementor-icon-box-content{
+    margin-bottom: 12px;
+}
+.elementor-icon-box-wrapper1 .elementor-icon-box-icon{
+    margin-left: 15px;
+}
+.elementor-icon-box-wrapper2 .elementor-icon-box-icon{
+    margin-left: 15px;
+}
+.elementor-icon-box-wrapper3 .elementor-icon-box-icon{
+    margin-left: 15px;
+}
+.elementor-widget-container .elementor-grid-item .image{
+    margin-left: 15px;
+}
+.elementor-icon-box-wrapper2 .elementor-icon-box-icon, .elementor-icon-box-content{
+    margin-bottom: 17px;
+}
+.container-fluida .elementor-widget-container .elementor-icon-box-wrapper1, .elementor-icon-box-wrapper2, .elementor-icon-box-wrapper3, .elementor-icon-box-wrapper4{
+    display: flex;
+    text-align: left;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+}
+.container-fluida .elementor-widget-container .elementor-icon-box-icon img{
     width: 15px;
     height: 15px;
+    margin-right: 12px;
+}
+.container-fluida .elementor-widget-container .elementor-grid-item img{
+    width: 25px;
+    height: 25px;
+}
+.container-fluida .bagian2{
+    width: 58%;
 }
 .wpform-required-label{
     color: #ff0000;
@@ -44,18 +91,16 @@
     height: 20px;
 }
 .btn1{
-    padding-top: 30px;
     border: 1px solid #19345E;
     border-radius: 50px;
     background-color: #ff9800;
     color: #fff;
     font-family: 'Muli', 'Bold';
     font-size: 16px;
-    width: 25%;
-    height: 48px;
+    width: 205px;
+    height: 40px;
     padding: 10px 25px;
     transition: all 1s;
-    cursor: pointer;
 }
 .btn1:hover{
     color: #fff;
@@ -63,8 +108,16 @@
     text-decoration: none;
 }
 .footer{
+    padding-top: 30px;
     background: #19345E;
 }
 .logo-socmed{
     width: 20px;
+}
+.socmed{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.copyright{
+    font-size: 14px;
 }
