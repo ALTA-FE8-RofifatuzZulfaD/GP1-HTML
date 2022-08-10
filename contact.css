@@ -59,13 +59,13 @@
 }
 
 /* style section form */
-.control{
-    margin-bottom: 100px;
-}
 .control p, .form-label{
     font-size: 16px;
     font-family: 'Poppins', 'Regular';
     color: #19345E;
+}
+.section{
+    margin-bottom: 100px;
 }
 .wpform-required-label{
     color: #ff0000;
