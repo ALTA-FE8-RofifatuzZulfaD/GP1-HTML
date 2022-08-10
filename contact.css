@@ -1,3 +1,4 @@
+/* Style Navbar */
 .navbar{
     box-shadow: 0px 3px 6px #C1C3C736;
     color: #19345E;
@@ -10,7 +11,11 @@
     margin-left: 50px;
     width: 130px;
 }
-.container-fluida1{
+.nav-item>a:hover{
+    color: #F47522;
+}
+
+.container-fluid1{
     width: 100%;
     padding-top: 80px;
 }
@@ -30,15 +35,15 @@
     height: 0px;
     border: 2px solid #F47522;
 }
-.container-fluida{
+.container-fluid{
     display: flex;
     flex-direction: wrap;
 }
-.container-fluida .bagian1{
+.container-fluid .bagian1{
     width: 42%;
     padding-left: 200px;
 }
-.container-fluida .elementor-widget-container p{
+.container-fluid .elementor-widget-container p{
     font-size: 18px;
     color: #19345E;
     font-family: 'Poppins, Regular';
@@ -64,22 +69,22 @@
 .elementor-icon-box-wrapper2 .elementor-icon-box-icon, .elementor-icon-box-content{
     margin-bottom: 17px;
 }
-.container-fluida .elementor-widget-container .elementor-icon-box-wrapper1, .elementor-icon-box-wrapper2, .elementor-icon-box-wrapper3, .elementor-icon-box-wrapper4{
+.container-fluid .elementor-widget-container .elementor-icon-box-wrapper1, .elementor-icon-box-wrapper2, .elementor-icon-box-wrapper3, .elementor-icon-box-wrapper4{
     display: flex;
     text-align: left;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
 }
-.container-fluida .elementor-widget-container .elementor-icon-box-icon img{
+.container-fluid .elementor-widget-container .elementor-icon-box-icon img{
     width: 15px;
     height: 15px;
     margin-right: 12px;
 }
-.container-fluida .elementor-widget-container .elementor-grid-item img{
+.container-fluid .elementor-widget-container .elementor-grid-item img{
     width: 25px;
     height: 25px;
 }
-.container-fluida .bagian2{
+.container-fluid .bagian2{
     width: 58%;
 }
 .wpform-required-label{
@@ -107,12 +112,14 @@
     background-color: #19345E;
     text-decoration: none;
 }
+/* style footer */
 .footer{
     padding-top: 30px;
     background: #19345E;
 }
 .logo-socmed{
     width: 20px;
+    
 }
 .socmed{
     font-size: 14px;
