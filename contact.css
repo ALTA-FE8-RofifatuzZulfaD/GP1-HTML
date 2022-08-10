@@ -1,0 +1,130 @@
+/* Style Navbar */
+.navbar{
+    box-shadow: 0px 3px 6px #C1C3C736;
+    color: #19345E;
+}
+.bartext{
+    color: #19345E;
+    font-weight: bold;
+}
+.contact-button{
+    margin-left: 50px;
+    width: 130px;
+}
+.nav-item>a:hover{
+    color: #F47522;
+}
+
+.container-fluid1{
+    width: 100%;
+    padding-top: 80px;
+}
+.col-8.d-flex.justify-content-center.align-items-center {
+    width: auto;
+}
+.display-4{
+    font-family: 'Muli, Bold';
+    font-size: 45px;
+    background-color: #fff;
+    color: #19345E;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.garis1, .garis2{
+    width: 35px;
+    height: 0px;
+    border: 2px solid #F47522;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: wrap;
+}
+.container-fluid .bagian1{
+    width: 42%;
+    padding-left: 200px;
+}
+.container-fluid .elementor-widget-container p{
+    font-size: 18px;
+    color: #19345E;
+    font-family: 'Poppins, Regular';
+}
+.elementor-icon-box-wrapper1, p{
+    margin-bottom: 2px;
+}
+.elementor-icon-box-wrapper1 .elementor-icon-box-icon, .elementor-icon-box-content{
+    margin-bottom: 12px;
+}
+.elementor-icon-box-wrapper1 .elementor-icon-box-icon{
+    margin-left: 15px;
+}
+.elementor-icon-box-wrapper2 .elementor-icon-box-icon{
+    margin-left: 15px;
+}
+.elementor-icon-box-wrapper3 .elementor-icon-box-icon{
+    margin-left: 15px;
+}
+.elementor-widget-container .elementor-grid-item .image{
+    margin-left: 15px;
+}
+.elementor-icon-box-wrapper2 .elementor-icon-box-icon, .elementor-icon-box-content{
+    margin-bottom: 17px;
+}
+.container-fluid .elementor-widget-container .elementor-icon-box-wrapper1, .elementor-icon-box-wrapper2, .elementor-icon-box-wrapper3, .elementor-icon-box-wrapper4{
+    display: flex;
+    text-align: left;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+}
+.container-fluid .elementor-widget-container .elementor-icon-box-icon img{
+    width: 15px;
+    height: 15px;
+    margin-right: 12px;
+}
+.container-fluid .elementor-widget-container .elementor-grid-item img{
+    width: 25px;
+    height: 25px;
+}
+.container-fluid .bagian2{
+    width: 58%;
+}
+.wpform-required-label{
+    color: #ff0000;
+    font-weight: 400px;
+}
+.col-auto img{
+    width: 20px;
+    height: 20px;
+}
+.btn1{
+    border: 1px solid #19345E;
+    border-radius: 50px;
+    background-color: #ff9800;
+    color: #fff;
+    font-family: 'Muli', 'Bold';
+    font-size: 16px;
+    width: 205px;
+    height: 40px;
+    padding: 10px 25px;
+    transition: all 1s;
+}
+.btn1:hover{
+    color: #fff;
+    background-color: #19345E;
+    text-decoration: none;
+}
+/* style footer */
+.footer{
+    padding-top: 30px;
+    background: #19345E;
+}
+.logo-socmed{
+    width: 20px;
+    
+}
+.socmed{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.copyright{
+    font-size: 14px;
+}
