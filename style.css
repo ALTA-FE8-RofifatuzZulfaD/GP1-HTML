@@ -93,28 +93,13 @@
     .blog-content-d{
         font-size: 14px; color: #707070;
     }
+    .read-more{
+        color: #F47522;
+    }
+    .read-more:hover{
+        color: #19345E;
+    }
 
- /* CSS BLOG PAGE */
-    .img-section{
-        background: url("ASSETS FINAL PROJECT HTML-CSS/img_blog.jpg") no-repeat center center;
-        background-size: cover;
-        height: 410px;
-        width: 100%;
-    }
-    .text-box{
-        margin-left: 80px; 
-        margin-right: 80px; 
-        color: #19345E; 
-        margin-bottom: 150px;
-    }
-    .title{
-        margin-bottom: 32px;
-    }
-    .title>h1{
-        font-size: 50px; 
-        font-weight: bold;
-    }
-    .writer>h5{
-        font-size: 20px; 
-        margin-bottom: 51px;
-    }
+ 
+
+
