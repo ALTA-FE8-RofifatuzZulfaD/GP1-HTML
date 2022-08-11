@@ -41,6 +41,14 @@
 }
 
 /* CSS TEAM PAGE */
+.ornament img{
+    width: 200px;
+    height: 292px;
+    margin-top: 35px;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
 .team-title{
     margin-top: 100px;
     width: 550px;
@@ -118,4 +126,38 @@
 .title-vm{
     text-align: center;
     margin-top: 80px;
+}
+.ornament-2 img{
+    width: 200px;
+    height: 292px;
+    right: 0;
+    margin-top: 100px;
+    position: absolute;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 425px) {
+    .border-col{
+        margin-top: -20px;
+    }
+    .biodata{
+        margin-top: -80px;
+    }
+    .first-li{
+        width: 100%;
+    }
+    .border-col2{
+        margin-top: -20px;
+    }
+    .ornament-2 img{
+        width: 200px;
+        height: 292px;
+        right: -25px;
+        margin-top: 150px;
+        position: absolute;
+        z-index: -1;
+    }
+    .footer{
+        width: 550px;
+    }
 }
