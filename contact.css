@@ -99,6 +99,7 @@
     transition: all 1s;
 }
 .btn1:hover{
+    border: 1px solid #19345E;
     color: #fff;
     background-color: #19345E;
     text-decoration: none;
