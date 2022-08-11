@@ -78,3 +78,13 @@
     font-size: 20px; 
     margin-bottom: 51px;
 }
+
+@media only screen and (max-width: 425px) {
+    .text-box{
+        margin-left: 20px; 
+        margin-right: 20px; 
+        color: #19345E; 
+        margin-bottom: 150px;
+    }
+    
+}
