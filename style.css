@@ -83,6 +83,7 @@
     }
     .btn1 span{
         margin-right: 7px;
+        text-decoration: none;
     }
     .btn1{
         border: 1px solid #F47522;
@@ -102,6 +103,13 @@
         color: #fff;
         background-color: #19345E;
         text-decoration: none;
+    }
+    .btn1 a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .btn1:hover{
+        color: #19345E;
     }
     /* Section support in home page */
     .support{
@@ -281,7 +289,7 @@
         color: #19345E;
     }
     .check-now:hover{
-        color: #F47522;
+        color: #19345E;
     }
     .check-now img{
         width: 25px;
