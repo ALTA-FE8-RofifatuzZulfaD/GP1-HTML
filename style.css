@@ -121,6 +121,14 @@
     }
     .reward-p .job{
         margin-bottom: 2px;
+        font-size: 16px;
+        font-family: 'Roboto', 'Bold';
+        color: #19345E;
+    }
+    .reward-p p{
+        font-size: 14px;
+        font-family: 'Muli', 'Regular';
+        color: #19345E;
     }
     .project{
         width: 70px;
@@ -135,10 +143,18 @@
     }
     .project-p .projects{
         margin-bottom: 2px;
+        font-size: 16px;
+        font-family: 'Roboto', 'Bold';
+        color: #19345E;
+    }
+    .project-p p{
+        font-size: 14px;
+        font-family: 'Muli', 'Regular';
+        color: #19345E;
     }
     .supp{
-        width: 90px;
-        height: 50px;
+        width: 95px;
+        height: 48px;
         border-radius: 60px;
         background-color: #F47522;
     }
@@ -149,6 +165,14 @@
     }
     .supp-p .suppo{
         margin-bottom: 2px;
+        font-size: 16px;
+        font-family: 'Roboto', 'Bold';
+        color: #19345E;
+    }
+    .supp-p p{
+        font-size: 14px;
+        font-family: 'Muli', 'Regular';
+        color: #19345E;
     }
     /* Section about in home page */
     .about-title{
