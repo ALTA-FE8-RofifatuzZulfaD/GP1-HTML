@@ -1,0 +1,121 @@
+/* Style Navbar */
+.navbar{
+    box-shadow: 0px 3px 6px #C1C3C736;
+    color: #19345E;
+}
+.bartext{
+    color: #19345E;
+    font-weight: bold;
+}
+.contact-button{
+    margin-left: 50px;
+    width: 130px;
+    background-color: #F47522; 
+    opacity: 1; 
+    color: white;
+}
+.contact-button:hover{
+    background-color: #19345E;
+    color: white;
+    border-color: #19345E;
+}
+.nav-item>a:hover{
+    color: #F47522;
+}
+
+/* style footer */
+.footer{
+    padding-top: 30px;
+    background: #19345E;
+}
+.logo-socmed{
+    width: 20px;
+    
+}
+.socmed{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.copyright{
+    font-size: 14px;
+}
+
+/* CSS TEAM PAGE */
+.team-title{
+    margin-top: 100px;
+    width: 550px;
+}
+.line{
+    width: 100%; 
+    height: 2px; 
+    border-color: #F47522; 
+    background-color: #F47522; 
+    opacity: 1;
+}
+.team-title-text{
+    font-size: 45px; 
+    color: #19345E;
+}
+.title-img{
+    font-size: 30px;
+    color: #19345E;
+}
+.border-col .border-img{
+    position: relative;
+    z-index: -1;
+}
+.border-col .border-img::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: 10px solid #F47522;
+    left: -30px;
+    top: 8%;
+    z-index: 999;
+}
+.border-col2 .border-img2{
+    position: relative;
+    z-index: -1;
+}
+.border-col2 .border-img2::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: 10px solid #19345E;
+    left: -30px;
+    top: 8%;
+    z-index: 999;
+}
+.biodata{
+    margin-top: 100px;
+    margin-left: 30px;
+    color: #19345E;
+}
+.ex-edu>h4{
+    font-size: 25px;
+    color: #19345E;
+}
+.li-con{
+    margin-left: 15px;
+}
+.edu-list{
+    color: #19345E; 
+    font-size: 14px;
+}
+.first-li{
+    width: 60%;
+}
+.ic-li{
+    width: 15px;
+}
+.line-boundary{
+    height: 2px;
+    border-top: 1px dashed #AAAAAA;
+    opacity: 1;
+}
+.title-vm{
+    text-align: center;
+    margin-top: 80px;
+}
