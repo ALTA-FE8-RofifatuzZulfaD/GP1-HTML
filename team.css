@@ -115,3 +115,7 @@
     border-top: 1px dashed #AAAAAA;
     opacity: 1;
 }
+.title-vm{
+    text-align: center;
+    margin-top: 80px;
+}
