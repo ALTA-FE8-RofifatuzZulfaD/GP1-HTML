@@ -142,25 +142,25 @@
                 </div>
                 <div class="container-fluid section">
                     <table class="tabel">
-                        <form class="form">
+                        <form class="form" id="myForm">
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Full Name<span class="wpform-required-label">*</span></label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Full Name">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Full Name" required>
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Email Address<span class="wpform-required-label">*</span></label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email" required>
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Phone Number <span class="wpform-required-label">*</span></label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Phone Number">
+                                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Your Phone Number" required>
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Message<span class="wpform-required-label">*</span></label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message .."></textarea>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message .." required></textarea>
                                 </div>
                             <div class="col-auto">
-                                <button type="submit" class="btn1 btn-warning"><span><img src="ASSETS FINAL PROJECT HTML-CSS/send-mail.png"></span>Send Message</button>
+                                <button type="submit" class="btn1 btn-warning" id="myBtn"><span><img src="ASSETS FINAL PROJECT HTML-CSS/send-mail.png"></span>Send Message</button>
                             </div>
                         </form>
                     </table>
@@ -168,6 +168,10 @@
             </div>
         </div>
     </div>
+
+    <script>
+        alert("Hello there! Let's connecting with us!");
+    </script>
 
     <!-- footer -->
     <div class="footer text-light pb-4 mt-5">
