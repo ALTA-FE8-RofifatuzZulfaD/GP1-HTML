@@ -1,4 +1,4 @@
-/* Style Navbar */
+/* style navbar */
 .navbar{
     box-shadow: 0px 3px 6px #C1C3C736;
     color: #19345E;
@@ -34,23 +34,47 @@
 
 /* style content bawah */
 .contact{
-    font-size: 18px;
+    font-size: 16px;
     color: #19345E;
     font-family: 'Poppins', 'Regular';
+}
+.contact p{
+    margin-bottom: 2px;
+}
+.content{
+    margin-left: 2px;
+    margin-bottom: 10px;
 }
 .image img{
     width: 15px;
     height: 15px;
 }
+.medsos{
+    margin-left: 0.5px;
+}
 .medsos img{
     width: 25px;
     height: 25px;
+    margin-left: 2px;
 }
 
 /* style section form */
+.control p, .form-label{
+    font-size: 16px;
+    font-family: 'Poppins', 'Regular';
+    color: #19345E;
+}
+.section{
+    margin-bottom: 200px;
+}
 .wpform-required-label{
     color: #ff0000;
     font-weight: 400px;
+}
+.form-control:focus{
+    border-color: rgb(244, 117, 34);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(244 117 34 / 25%);
 }
 
 /* style button */
@@ -58,8 +82,11 @@
     width: 20px;
     height: 20px;
 }
+.btn1 span{
+    margin-right: 7px;
+}
 .btn1{
-    border: 1px solid #19345E;
+    border: 1px solid #F47522;
     border-radius: 50px;
     background-color: #F47522;
     color: #fff;
@@ -67,10 +94,12 @@
     font-size: 16px;
     width: 205px;
     height: 40px;
-    padding: 10px 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     transition: all 1s;
 }
 .btn1:hover{
+    border: 1px solid #19345E;
     color: #fff;
     background-color: #19345E;
     text-decoration: none;

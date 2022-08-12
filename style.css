@@ -1,4 +1,4 @@
-/* Style Navbar */
+/* style navbar */
 .navbar{
     box-shadow: 0px 3px 6px #C1C3C736;
     color: #19345E;
@@ -32,7 +32,156 @@
     font-size: 14px;
 }
 
+
 /* CSS HOME PAGE */
+    /* Section jumbotron in home page */
+    .jumbotron{
+        width: 100%;
+        height: 100%;
+    }
+    .box-jumbotron{
+        padding-top: 150px;
+        background-color: #EDF6FF;
+        height: 900px;
+    }
+    .group{
+        width: 420px;
+        height: 420px;
+    }
+    .img-jt{
+        padding-right: 50px;
+        padding-top: 100px;
+    }
+    .text-jt{
+        padding-top: 150px;
+        width: 456px;
+        padding-left: 0px;
+    }
+    .h3{
+        font-size: 25px;
+        color: #19345E;
+        font-family: 'Muli', 'Bold';
+    }
+    .h1{
+        font-size: 45px;
+        color: #19345E;
+        font-family: 'Muli', 'Bold';
+    }
+    .alter{
+        font-size: 45px;
+        color: #F47522;
+        font-family: 'Muli', 'Bold';
+    }
+    .text-p{
+        font-size: 17px;
+        color: #19345E;
+        font-family: 'Muli', "Bold";
+    }
+    .col-auto img{
+        width: 20px;
+        height: 20px;
+    }
+    .btn1 span{
+        margin-right: 7px;
+        text-decoration: none;
+    }
+    .btn1{
+        border: 1px solid #F47522;
+        border-radius: 50px;
+        background-color: #F47522;
+        color: #fff;
+        font-family: 'Muli', 'Bold';
+        font-size: 16px;
+        width: 205px;
+        height: 40px;
+        padding-left: 25px;
+        padding-right: 25px;
+        transition: all 1s;
+    }
+    .btn1:hover{
+        border: 1px solid #19345E;
+        color: #fff;
+        background-color: #19345E;
+        text-decoration: none;
+    }
+    .btn1 a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .btn1:hover{
+        color: #19345E;
+    }
+    /* Section support in home page */
+    .support{
+        border-radius: 100px;
+        box-shadow: 0px 3px 6px #00000029;
+    }
+    .reward{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: #F47522;
+    }
+    .reward img{
+        width: 35px;
+        height: 35px;
+        border-radius: 35px;
+    }
+    .reward-p .job{
+        margin-bottom: 2px;
+        font-size: 16px;
+        font-family: 'Roboto', 'Bold';
+        color: #19345E;
+    }
+    .reward-p p{
+        font-size: 14px;
+        font-family: 'Muli', 'Regular';
+        color: #19345E;
+    }
+    .project{
+        width: 70px;
+        height: 48px;
+        border-radius: 50px;
+        background-color: #F47522;
+    }
+    .project img{
+        width: 28px;
+        height: 28px;
+        padding-left: 2px;
+    }
+    .project-p .projects{
+        margin-bottom: 2px;
+        font-size: 16px;
+        font-family: 'Roboto', 'Bold';
+        color: #19345E;
+    }
+    .project-p p{
+        font-size: 14px;
+        font-family: 'Muli', 'Regular';
+        color: #19345E;
+    }
+    .supp{
+        width: 95px;
+        height: 48px;
+        border-radius: 60px;
+        background-color: #F47522;
+    }
+    .supp img{
+        width: 30px;
+        height: 30px;
+        padding-left: 2px;
+    }
+    .supp-p .suppo{
+        margin-bottom: 2px;
+        font-size: 16px;
+        font-family: 'Roboto', 'Bold';
+        color: #19345E;
+    }
+    .supp-p p{
+        font-size: 14px;
+        font-family: 'Muli', 'Regular';
+        color: #19345E;
+    }
     /* Section about in home page */
     .about-title{
         width: 350px;
@@ -72,6 +221,82 @@
         font-size: 18px;
     }
 
+    /* Section teams in home page */
+    .ornament img{
+        width: 200px;
+        height: 292px;
+        margin-top: 25px;
+        left: -1;
+        position: absolute;
+        z-index: -1;
+    }
+    .team-title{
+        width: 510px;
+    }
+    .team-title-text{
+        font-size: 45px; 
+        color: #19345E;
+    }
+    .team-p{
+        font-size: 17px;
+        color: #19345E;
+    }
+    .at-team_img img{
+        width: 225px;
+        height: 265px;
+    }
+    .at-team .at-team_img{
+        position: relative;
+        padding-top: 25px;
+        margin-bottom: 30px;
+        z-index: -1;
+    }
+    .at-team .at-team_img::after {
+        position: absolute;
+        content: "";
+        width: 225px;
+        height: 265px;
+        border: 10px solid #F47522;
+        left: 40px;
+        top: 14%;
+        z-index: 999;
+    }
+    .at-team_p{
+        text-align: center;
+    }
+    .at-team_p .p1{
+        font-size: 20px;
+        color: #F47522;
+        font-family: 'Roboto', 'Bold';
+        margin-bottom: 2px;
+    }
+    .at-team_p .p2{
+        font-size: 17px;
+        color: #19345E;
+        font-family: 'Poppins', 'Regular';
+    }
+    .middle-team{
+        margin-top: -30px;
+    }
+    .middle-team .at-team .at-team_img img{
+        box-shadow: 0px 10px 10px #19345E8E;
+    }
+    .middle-team .at-team .at-team_img::after{
+        border: 10px solid #19345E;
+    }
+    .check-now{
+        text-decoration: none;
+        color: #19345E;
+    }
+    .check-now:hover{
+        color: #19345E;
+    }
+    .check-now img{
+        width: 25px;
+        height: 25px;
+        margin-left: 5px;
+    }
+
     /* Section blog in home page */
     .blog-title{
         width: 500px;
@@ -84,37 +309,107 @@
         border-radius: 5px;
     }
     .blog-content-t{
-        margin-top: 31px; color: #19345E;
+        margin-top: 31px; 
+        color: #19345E;
         margin-bottom: 10px;
     }
     .blog-content-t>h3{
         font-size: 20px;
     }
     .blog-content-d{
-        font-size: 14px; color: #707070;
+        font-size: 14px; 
+        color: #707070;
+    }
+    .read-more{
+        color: #F47522;
+    }
+    .read-more:hover{
+        color: #19345E;
     }
 
- /* CSS BLOG PAGE */
-    .img-section{
-        background: url("ASSETS FINAL PROJECT HTML-CSS/img_blog.jpg") no-repeat center center;
-        background-size: cover;
-        height: 410px;
+@media only screen and (max-width: 768px) {
+    /* style jumbotron */
+    .box-jumbotron{
+        padding-top: 50px;
+        height: 650px;
+    }
+    .group{
+        width: 280px;
+        height: 280px;
+    }
+    .img-jt{
+        padding-top: 150px;
+    }
+    .text-jt{
+        width: 370px;
+    }
+
+    /* style support */
+    .support{
+        border-radius: 50px;
+        box-shadow: 0px 3px 6px #00000029;
+    }
+    .reward-p{
+        text-align: center;
+    }
+    .project{
+        width: 50px;
+        height: 48px;
+        border-radius: 50px;
+    }
+    .project-p{
+        text-align: center;
+    }
+    .supp{
+        width: 50px;
+        height: 50px;
+    }
+    .supp-p{
+        text-align: center;
+    }
+
+    /* style team */
+    .at-team_img img{
+        width: 175px;
+        height: 200px;
+    }
+    .at-team .at-team_img::after {
+        position: absolute;
+        content: "";
+        width: 175px;
+        height: 204px;
+        border: 10px solid #F47522;
+        left: -6px;
+        top: 15.5%;
+        z-index: 999;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    /* Style jumbotron */
+    .text-jt{
+        padding-top: 0px;
+        padding-bottom: 180px;
+        padding-left: 20px;
         width: 100%;
     }
-    .text-box{
-        margin-left: 80px; 
-        margin-right: 80px; 
-        color: #19345E; 
-        margin-bottom: 150px;
+
+    /* style team */
+    .at-team_img img{
+        width: 225px;
+        height: 265px;
     }
-    .title{
-        margin-bottom: 32px;
+    .at-team .at-team_img::after {
+        position: absolute;
+        content: "";
+        width: 225px;
+        height: 265px;
+        border: 10px solid #F47522;
+        left: 60px;
+        top: 14%;
+        z-index: 999;
     }
-    .title>h1{
-        font-size: 50px; 
-        font-weight: bold;
+    .middle-team{
+        margin-top: 0px;
     }
-    .writer>h5{
-        font-size: 20px; 
-        margin-bottom: 51px;
-    }
+}
